@@ -36,16 +36,19 @@ These are the recommended files to rename the project (also look out for version
    - Right-click project > Rename > Enter new name.
 
 2. **Update Project Files:**
+
+   IMPORTANT: Use case sensitive when using find and replace.
    - Use Find and Replace (Ctrl + Shift + H) for "WidgetTemplate" > Replace with new name.
+   - Use Find and Replace (Ctrl + Shift + H) for "Widget1" > Replace with new name.
+   - Use Find and Replace (Ctrl + Shift + H) for "widget1" > Replace with new name.
    - Review changes carefully.
 
-3. **Update References:**
-   - Check config files (`app.config`, `web.config`) for old references.
-   - Update references in `.csproj` files.
-   - Review source control changes.
-
-4. **Update Assembly Information:**
-   - Modify attributes in `AssemblyInfo.cs`.
+3. **Update Assembly Information:**
+   - Rename the source folder (repo/WidgetTemplate) and solution file (WidgetTemplate.sln)
+   - Update line 7 in the solution file: eg. `Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicController", "MusicController\MusicController.csproj", "{E927FA35-4B18-4AF8-93A4-87155D5A84A1}"`
+  
+4. Debug/build the app to validate renaming
+5. Push changes to remote
 
 ## Usage
 
