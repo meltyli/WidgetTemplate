@@ -361,3 +361,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Project specific
+# dont exclde proj.user file
+!WidgetTemplate/WidgetTemplate.csproj.user
