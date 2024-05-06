@@ -7,8 +7,8 @@
     <ProjectGuid>{E927FA35-4B18-4AF8-93A4-87155D5A84A1}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CopyingFromSample</RootNamespace>
-    <AssemblyName>CopyingFromSample</AssemblyName>
+    <RootNamespace>WidgetTemplate</RootNamespace>
+    <AssemblyName>WidgetTemplate</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.19041.0</TargetPlatformVersion>
