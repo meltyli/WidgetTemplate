@@ -28,6 +28,25 @@ To use this widget template, follow these steps:
 
 Refer to the official [Microsoft documentation](https://docs.microsoft.com/en-us/gaming/game-bar/) for detailed instructions on developing and deploying Xbox Game Bar widgets.
 
+## Renaming Visual Studio Project Parts
+
+These are the recommended files to rename the project (also look out for version number and author).
+
+1. **Rename Namespace:**
+   - Right-click project > Rename > Enter new name.
+
+2. **Update Project Files:**
+   - Use Find and Replace (Ctrl + Shift + H) for "WidgetTemplate" > Replace with new name.
+   - Review changes carefully.
+
+3. **Update References:**
+   - Check config files (`app.config`, `web.config`) for old references.
+   - Update references in `.csproj` files.
+   - Review source control changes.
+
+4. **Update Assembly Information:**
+   - Modify attributes in `AssemblyInfo.cs`.
+
 ## Usage
 
 This template provides a basic structure for creating Xbox Game Bar widgets. Customize the provided code according to your widget's requirements, including layout, functionality, and interaction with the Game Bar environment.
