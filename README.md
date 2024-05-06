@@ -10,12 +10,13 @@ This project was developed using Visual Studio 2022 Community edition. Ensure yo
 
 To use this widget template, follow these steps:
 
-1. Clone or download this repository to your local machine.
-2. Open the solution file (`WidgetTemplate.sln`) in Visual Studio 2022.
+1. Create a new repo from this template in the top right of this repo.
+2. Clone or download your new repository to your local machine.
+3. Open the solution file (`WidgetTemplate.sln`) in Visual Studio 2022.
+4. Install the NuGet package listed in the [Prerequisites section](https://github.com/meltyli/WidgetTemplate/edit/master/README.md#getting-started).
+5. You probably want to start out with editing Widget1.xaml file.
 
 ## Getting Started
-
-Follow these steps to create your custom widget using the template:
 
 1. Prerequisites:
 - Visual Studio 2022 Community Edition (optional)
