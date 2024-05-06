@@ -46,7 +46,7 @@ These are the recommended files to rename the project (also look out for version
 
 4. **Update Assembly Information:**
    - Rename the source folder (repo/WidgetTemplate) and solution file (WidgetTemplate.sln)
-   - Update line 7 in the solution file: eg. `Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicController", "MusicController\MusicController.csproj", "{E927FA35-4B18-4AF8-93A4-87155D5A84A1}"`
+   - Update line 7 in the solution file: eg. `Project("{CB0B05F0-5107-42F6-83B2-16BAA5DD2D9B}") = "WidgetName", "src\WidgetName.csproj", "{EC5E77E8-A523-4658-9D73-D35C831C4810}"`
   
 5. Debug/build the app to validate renaming
 6. Push changes to remote
