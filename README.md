@@ -37,18 +37,19 @@ These are the recommended files to rename the project (also look out for version
 
 2. **Update Project Files:**
 
-   IMPORTANT: Use case sensitive when using find and replace.
-   - Use Find and Replace (Ctrl + Shift + H) for "WidgetTemplate" > Replace with new name.
-   - Use Find and Replace (Ctrl + Shift + H) for "Widget1" > Replace with new name.
-   - Use Find and Replace (Ctrl + Shift + H) for "widget1" > Replace with new name.
-   - Review changes carefully.
+   Update all instances of the following using Find and Replace (Ctrl + Shift + H):
+   1. `WidgetTemplate` > Replace with new name, eg. `MyWidget`.
+   2. `Widget1` > Replace with new name, eg. `WidgetName` AND rename the file called "Widget1", eg. `WidgetName.xaml`.
+   3. `widget1` > Replace with new name, eg. `widgetName`.
+  
+   **IMPORTANT: Check "Match case" when using find and replace.**
 
-3. **Update Assembly Information:**
+4. **Update Assembly Information:**
    - Rename the source folder (repo/WidgetTemplate) and solution file (WidgetTemplate.sln)
    - Update line 7 in the solution file: eg. `Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicController", "MusicController\MusicController.csproj", "{E927FA35-4B18-4AF8-93A4-87155D5A84A1}"`
   
-4. Debug/build the app to validate renaming
-5. Push changes to remote
+5. Debug/build the app to validate renaming
+6. Push changes to remote
 
 ## Usage
 
